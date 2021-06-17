@@ -7,12 +7,12 @@
         style="font-size:2rem; width:20vw; z-index:999; margin-top:42vh;">ABOUT ME</a>
     </div>
   </div>
-  <div class="container" style="margin-top:5vh;" ref="abm">
+  <div class="container mx-auto" style="margin-top:5vh;" ref="abm">
     <div class="row">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 600px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                <img src="" alt="">
+                <img src="../assets/img/profile.jpg" class="img-thumbnail mt-3" alt="">
                 </div>
                 <div class="col-md-8">
                 <div class="card-body">
@@ -34,12 +34,16 @@
     </div>
     </div>
 
-
+    <Education/>
 </template>
 
 <script>
-import $ from 'jquery';
+import $ from 'jquery'
+import Education from '@/components/Education.vue'
 export default {
+  components: {
+    Education
+  },
   methods: {
     scrollMeTo(refName) {
       var element = this.$refs[refName];
