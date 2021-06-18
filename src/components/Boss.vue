@@ -32,7 +32,6 @@
             <img class="mx-auto d-block" style="max-width:400px" src="../assets/img/boss6.png" alt="">
             <figcaption>▲商品管理系統</figcaption>
             </figure>
-          </p>
           </div>
         </div>
     </div>
