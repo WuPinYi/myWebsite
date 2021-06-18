@@ -21,6 +21,21 @@ const routes = [
     component : ()=>import('../components/Boss.vue')
   },
   {
+    path: '/Busplay',
+    name:'Busplay',
+    component : ()=>import('../components/Busplay.vue')
+  },
+  {
+    path: '/Flag',
+    name:'Flag',
+    component : ()=>import('../components/Flag.vue')
+  },
+  {
+    path: '/Paper',
+    name:'Paper',
+    component : ()=>import('../components/Paper.vue')
+  },
+  {
     path: '/project/:name',
     name: 'Project',
     component: () => import('@/components/Project')

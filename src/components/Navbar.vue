@@ -16,10 +16,12 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <h6 class="dropdown-header">Website</h6>
-          <a class="dropdown-item" @click="goTo()">BOSS</a>
-          <a class="dropdown-item" href="#">BUSPLAY</a>
+          <a class="dropdown-item" @click="goTo('Boss')">BOSS</a>
+          <a class="dropdown-item" @click="goTo('Busplay')">BUSPLAY</a>
           <h6 class="dropdown-header">Game</h6>
-          <a class="dropdown-item" href="#">Raise Your red flag</a>
+          <a class="dropdown-item" @click="goTo('Flag')">Raise Your red flag</a>
+          <h6 class="dropdown-header">Paper</h6>
+          <a class="dropdown-item" @click="goTo('Paper')">Convolutional Neural Network Augmented Reality Occlusion-aware System</a>
         </div>
       </li>
       </ul>
@@ -29,13 +31,19 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
     name: 'Navbar',
     methods:{
-      goTo(){
-      this.$router.push('/Boss'); 
+      goTo(name){
+        this.$router.push('/'+name); 
+      }
+    },
+    mounted(){
+      $(document).ready(function() {
+        $(".dropdown-toggle").dropdown();
+      });
     }
-  }
 }
 </script>
 

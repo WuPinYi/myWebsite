@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-top:40vh">
+    <div class="container" style="margin-top:15vh">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-9">
           <h3>BOSS茶店 (Beverage Online Shop System)</h3>

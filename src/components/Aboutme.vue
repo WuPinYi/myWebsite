@@ -60,9 +60,7 @@ export default {
       $('.b').css("width", mouseX)
       // }
     });
-    $(document).ready(function() {
-    $(".dropdown-toggle").dropdown();
-});
+    
   }
 }
 </script>
