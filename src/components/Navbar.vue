@@ -16,7 +16,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <h6 class="dropdown-header">Website</h6>
-          <a class="dropdown-item" href="#">BOSS</a>
+          <a class="dropdown-item" @click="goTo()">BOSS</a>
           <a class="dropdown-item" href="#">BUSPLAY</a>
           <h6 class="dropdown-header">Game</h6>
           <a class="dropdown-item" href="#">Raise Your red flag</a>
@@ -30,7 +30,12 @@
 
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    methods:{
+      goTo(){
+      this.$router.push('/Boss'); 
+    }
+  }
 }
 </script>
 
