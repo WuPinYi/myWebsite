@@ -9,24 +9,23 @@
   </div>
   <div class="container mx-auto" style="margin-top:5vh;" ref="abm">
     <div class="row">
-        <div class="card mb-3" style="max-width: 600px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
+        <div class="card col-12 mb-2 text-center" style="max-width: 600px;">
+            <div class="row align-items-center">
+                <div class="col-md-4 ">
                 <img src="../assets/img/profile.jpg" class="img-thumbnail mt-3" alt="">
                 </div>
                 <div class="col-md-8">
-                <div class="card-body">
-                    <p class="font-weight-bold" style="font-size:1.5rem; font-family:Nunito Sans;">吳品頤</p>
-                    <p class="text-muted">WU PINYI</p>
+                  <div class="card-body">
+                    <p class="font-weight-bold text-md-left" style="font-size:1.5rem; font-family:Nunito Sans;">吳品頤</p>
+                    <p class="text-muted text-md-left">WU PINYI</p>
                     <hr>
-                    <p class="card-text">Skills and Abilities:HTML5、CSS、javascript、jQuery、vue.js、anjular.js、react.js、node.js、Bootstrap、python、PHP、C、C++、C#、Photoshop、After Effect、Illustrator</p>
-                    <p class="font-weight-bold" style="font-size:1.5rem; font-family:Nunito Sans;">尋找後端or全端工程師職缺</p>
-                    <div class="text-sm-center text-md-left">
+                    <p class="card-text text-md-left">Skills and Abilities : HTML5、CSS、javascript、jQuery、vue.js、anjular.js、react.js、node.js、Bootstrap、python、PHP、C、C++、C#、Photoshop、After Effect、Illustrator</p>
+                    <p class="font-weight-bold text-md-left" style="font-size:1.5rem; font-family:Nunito Sans;">尋找後端or全端工程師職缺</p>
+                    <div class="text-sm-left text-md-left">
                         <a class="btn-social mr-2" href="https://github.com/WuPinYi" style="text-decoration:none; color:black;"><i class="fab fa-github"></i></a>
                         <a class="btn-social mr-2" href="https://www.linkedin.com/in/wupinyi/" style="text-decoration:none; color:black;"><i class="fab fa-linkedin"></i></a>
-                        <a class="btn-social mr-2" href="mailto:t104590020@ntut.org.tw" style="text-decoration:none; color:black;"><i class="far fa-envelope"></i></a>
-                        
-                    </div>
+                        <a class="btn-social mr-2" href="mailto:t104590020@ntut.org.tw" style="text-decoration:none; color:black;"><i class="far fa-envelope"></i></a> 
+                  </div>
                 </div>
                 </div>
             </div>
