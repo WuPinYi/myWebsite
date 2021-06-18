@@ -13,7 +13,7 @@
         <div class="col-12 mb-2 text-center" style="max-width: 600px;">
             <div class="row align-items-center">
                 <div class="col-12 col-md-4">
-                  <img src="../assets/img/profile.jpg" class=".img-fluid rounded mx-auto img-thumbnail mt-3" style="max-width:160px;" alt="">
+                  <img src="../assets/img/profile.jpg" class="rounded mx-auto img-thumbnail mt-3" style="max-width:160px;" alt="">
                 </div>
                 <div class="col-12 col-md-8">
                   <div class="card-body">
